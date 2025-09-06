@@ -2,7 +2,9 @@ import axios from "axios"
 const BASE_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:5000/api"   // local testing ke liye
-    : "https://appbackend-ahuc.onrender.com/api";  // Render backend URL
+    : "https://appbackend-ahuc.onrender.com/api";  
+    
+    // Render backend URL
 // const BASE_URL = "http://localhost:5000/api";
 
 
